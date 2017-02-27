@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		434A213B1E6458E9005E5D5E /* PartyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434A213A1E6458E9005E5D5E /* PartyCell.swift */; };
+		434A213D1E6459F9005E5D5E /* PartyRock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434A213C1E6459F9005E5D5E /* PartyRock.swift */; };
 		43C31C6B1E6429CD00F5D194 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C31C6A1E6429CD00F5D194 /* AppDelegate.swift */; };
 		43C31C6D1E6429CD00F5D194 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C31C6C1E6429CD00F5D194 /* MainVC.swift */; };
 		43C31C701E6429CD00F5D194 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43C31C6E1E6429CD00F5D194 /* Main.storyboard */; };
@@ -36,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		434A213A1E6458E9005E5D5E /* PartyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PartyCell.swift; sourceTree = "<group>"; };
+		434A213C1E6459F9005E5D5E /* PartyRock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PartyRock.swift; sourceTree = "<group>"; };
 		43C31C671E6429CD00F5D194 /* PartyRock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PartyRock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43C31C6A1E6429CD00F5D194 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		43C31C6C1E6429CD00F5D194 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
@@ -135,6 +139,7 @@
 		43C31C981E642A6200F5D194 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				434A213C1E6459F9005E5D5E /* PartyRock.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -142,6 +147,7 @@
 		43C31C991E642A6800F5D194 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				434A213A1E6458E9005E5D5E /* PartyCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -303,6 +309,8 @@
 			files = (
 				43C31C9F1E6433A700F5D194 /* VideoVC.swift in Sources */,
 				43C31C6D1E6429CD00F5D194 /* MainVC.swift in Sources */,
+				434A213D1E6459F9005E5D5E /* PartyRock.swift in Sources */,
+				434A213B1E6458E9005E5D5E /* PartyCell.swift in Sources */,
 				43C31C6B1E6429CD00F5D194 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -554,6 +562,7 @@
 				43C31C911E6429CE00F5D194 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		43C31C921E6429CE00F5D194 /* Build configuration list for PBXNativeTarget "PartyRockTests" */ = {
 			isa = XCConfigurationList;
@@ -562,6 +571,7 @@
 				43C31C941E6429CE00F5D194 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		43C31C951E6429CE00F5D194 /* Build configuration list for PBXNativeTarget "PartyRockUITests" */ = {
 			isa = XCConfigurationList;
@@ -570,6 +580,7 @@
 				43C31C971E6429CE00F5D194 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
